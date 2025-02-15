@@ -2,6 +2,7 @@
 import {ref} from 'vue';
 import {RouterLink, useRoute} from 'vue-router';
 import Logo from '@/layouts/full/logo/Logo.vue';
+import PalaceLogo from "@/layouts/full/logo/PalaceLogo.vue";
 
 const route = useRoute(); // Get current route
 
@@ -31,14 +32,14 @@ const navigation = ref([
   //     href: '/front-page/pricing',
   //     badge: false
   // },
-  // {
-  //     menu: 'Contact',
-  //     href: '/front-page/contact-us',
-  //     badge: false
-  // },
+  {
+      menu: 'Contact',
+      href: '/contact',
+      badge: false
+  },
   {
     menu: 'Review Us',
-    href: '/front-page/review-us',
+    href: '/review',
     badge: false
   }
 ]);
@@ -51,6 +52,7 @@ const isActive = (href: string) => route.path === href;
     <div class="d-flex flex-lg-row flex-column align-lg-center justify-space-between w-100 ga-lg-5 ga-4 pa-lg-0 pa-6">
         <div class="d-lg-none d-block mb-4">
             <Logo />
+            <PalaceLogo />
         </div>
 
         <div v-for="(item, i) in navigation" :key="i">

@@ -13,6 +13,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ## Project Setup
 
 ```sh
+nvm use 22.13.1
 npm install
 ```
 

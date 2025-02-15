@@ -8,6 +8,7 @@ import Navigations from './Navigation.vue';
 import MobileSidebar from '@/components/landingpage/layout/MobileSidebar.vue';
 /*import tabler icons*/
 import { Menu2Icon } from 'vue-tabler-icons';
+import PalaceLogo from "@/layouts/full/logo/PalaceLogo.vue";
 const appsdrawer = ref(false);
 const customizer = useCustomizerStore();
 const stickyHeader = ref(false);
@@ -37,11 +38,12 @@ function handleScroll() {
                             <RtlLogo />
                         </div>
                         <div v-else>
-                            <Logo />
+                            <!--<Logo />-->
+                            <PalaceLogo></PalaceLogo>
                         </div>
 
                         <!-- Desktop view Navigation -->
-                        <div class="navigation mx-auto d-lg-flex d-none">
+                        <div class="navigation d-lg-flex d-none" style="margin-left: auto; margin-right: 0;">
                             <Navigations />
                         </div>
                         <div class="d-flex ms-xl-0 ms-auto">

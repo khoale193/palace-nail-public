@@ -11,13 +11,9 @@ import ContactForm from '@/components/frontpages/ContactUs/ContactForm.vue';
 <template>
     <div class="front-wraper">
         <!-- Header -->
-        <AnnounceBar />
         <Header />
 
-        <TitleBanner/>
         <ContactMap/>
-        <ContactForm/>
-        <Purchase />
 
         <!-- Footer -->
         <Footer />

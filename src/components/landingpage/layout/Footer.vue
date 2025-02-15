@@ -5,8 +5,7 @@
                 <div class="mt-8 mb-4">
                     <img src="@/assets/images/logos/logoIcon.svg" alt="favicon" />
                     <p class="text-subtitle-1 mt-2 text-13">
-                        All rights reserved by Modernize.<br> Designed &amp; Developed by
-                        <a href="https://adminmart.com/" class="a_link"  target="_blank">AdminMart</a>
+                        All rights reserved by Palace Nail.
                     </p>
                 </div>
             </v-col>

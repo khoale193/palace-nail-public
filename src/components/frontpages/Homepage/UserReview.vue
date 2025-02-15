@@ -36,7 +36,7 @@ const goToPrevSlide = () => {
                     <v-col cols="12" lg="9">
                         <h2 class="display-2 font-weight-bold textPrimary">
                             What our clients<br />
-                            think <img src="@/assets/images/logos/logo-icon.svg" height="24" class="mx-2" alt="logo" /> about us?
+                            think <img src="@/assets/images/logos/sample.png" height="24" class="mx-2" alt="logo" /> about us?
                         </h2>
                         <p class="text-subtitle-1 opacity-70 lh-28 mt-4">
                             Our users' feedback is a testament to our commitment to quality and user satisfaction. Read what they have to

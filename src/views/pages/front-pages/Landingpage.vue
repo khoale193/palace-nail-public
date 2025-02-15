@@ -19,22 +19,22 @@ import MainBanner from '@/components/frontpages/Homepage/mainBanner.vue';
 <template>
     <div class="front-wraper">
         <!-- Header -->
-        <AnnounceBar />
+        <!-- <AnnounceBar /> -->
         <Header />
 
         <!-- Content -->
-        <MainBanner />
-        <Features />
-        <FeatureTabs />
-        <OurLeaders />
-        <ContactBar />
-        <OurTemplates />
+        <!-- <MainBanner /> -->
+        <!-- <Features /> -->
+        <!-- <FeatureTabs /> -->
+        <!-- <OurLeaders /> -->
+        <!-- <ContactBar /> -->
+        <!-- <OurTemplates /> -->
         <UserReview />
-        <OurFeatures />
-        <Packages />
-        <SecurePayments />
-        <FAQ />
-        <Purchase />
+        <!-- <OurFeatures /> -->
+        <!-- <Packages /> -->
+        <!-- <SecurePayments /> -->
+        <!-- <FAQ /> -->
+        <!-- <Purchase /> -->
 
         <!-- Footer -->
         <Footer />

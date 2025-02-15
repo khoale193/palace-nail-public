@@ -10,9 +10,9 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
                     <h5 class="text-17 textPrimary mb-sm-7 mb-6">Explore</h5>
                     <div class="d-flex flex-column ga-4">
                         <div v-for="item in FooterMenu1" :key="item.menu">
-                            <v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
+                            <!--<v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
                                 {{ item.menu }}
-                            </v-btn>
+                            </v-btn>-->
                         </div>
                     </div>
                 </v-col>
@@ -20,9 +20,9 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
                     <h5 class="text-17 textPrimary mb-sm-7 mb-6">Features</h5>
                     <div class="d-flex flex-column ga-4">
                         <div v-for="item in FooterMenu2" :key="item.menu">
-                            <v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
+                            <!--<v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
                                 {{ item.menu }}
-                            </v-btn>
+                            </v-btn>-->
                         </div>
                     </div>
                 </v-col>
@@ -30,16 +30,16 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
                     <h5 class="text-17 textPrimary mb-sm-7 mb-6">Resources</h5>
                     <div class="d-flex flex-column ga-4">
                         <div v-for="item in FooterMenu3" :key="item.menu">
-                            <v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
+                            <!--<v-btn variant="text" :href="item.link" target="_blank" class="text-hover-primary link-btn opacity-80">
                                 {{ item.menu }}
-                            </v-btn>
+                            </v-btn>-->
                         </div>
                     </div>
                 </v-col>
                 <v-col cols="12" lg="3" sm="6">
-                    <h5 class="text-17 textPrimary mb-sm-7 mb-6">Follow us</h5>
+                    <h5 class="text-17 textPrimary mb-sm-7 mb-6">Follow Palace Nail Spa</h5>
                     <div class="d-flex ga-5 opacity-90 social-icon">
-                        <v-btn variant="text" href="/" target="_blank" class="link-btn">
+                        <v-btn variant="text" href="https://www.facebook.com/profile.php?id=100083091861063" target="_blank" class="link-btn">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_21817_22409)">
                                     <path
@@ -52,24 +52,9 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <v-tooltip activator="parent" location="top">Facebook</v-tooltip>
+                            <v-tooltip activator="parent" location="top">Palace Nail Spa's Facebook</v-tooltip>
                         </v-btn>
-                        <v-btn variant="text" href="/" target="_blank" class="link-btn">
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_21817_22411)">
-                                    <path
-                                        d="M19.7398 6.51836C19.7527 6.71172 19.7527 6.90938 19.7527 7.10273C19.7527 13.0625 15.2152 19.9332 6.92227 19.9332C4.36563 19.9332 1.99375 19.1941 0 17.9094C0.360937 17.9523 0.713281 17.9652 1.08711 17.9652C3.19687 17.9652 5.13477 17.252 6.68594 16.0402C4.70508 15.9973 3.04219 14.6996 2.4707 12.9121C2.75 12.9551 3.0293 12.9809 3.32148 12.9809C3.72539 12.9809 4.1293 12.925 4.50742 12.8262C2.44063 12.4094 0.89375 10.5918 0.89375 8.40039V8.34453C1.49531 8.67969 2.19141 8.89023 2.93047 8.91602C1.71445 8.1082 0.919531 6.72461 0.919531 5.16055C0.919531 4.32266 1.14297 3.55352 1.53398 2.8832C3.75547 5.62031 7.08984 7.40781 10.8324 7.60117C10.7637 7.26602 10.7207 6.91797 10.7207 6.56992C10.7207 4.08633 12.7316 2.0625 15.2281 2.0625C16.5258 2.0625 17.6988 2.6082 18.5238 3.48477C19.5422 3.29141 20.5219 2.91328 21.3855 2.39766C21.0504 3.44609 20.3371 4.32266 19.4047 4.88125C20.3113 4.78242 21.1922 4.5332 22 4.18516C21.3855 5.07891 20.6164 5.87383 19.7398 6.51836Z"
-                                    />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_21817_22411">
-                                        <rect width="22" height="22" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            <v-tooltip activator="parent" location="top">Twitter</v-tooltip>
-                        </v-btn>
-                        <v-btn variant="text" href="/" target="_blank" class="link-btn">
+                        <v-btn variant="text" href="https://www.instagram.com/palace_nails_219" target="_blank" class="link-btn">
                             <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_21817_22413)">
                                     <path
@@ -82,7 +67,7 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <v-tooltip activator="parent" location="top">Instagram</v-tooltip>
+                            <v-tooltip activator="parent" location="top">Palace Nail Spa's Instagram</v-tooltip>
                         </v-btn>
                     </div>
                 </v-col>
@@ -93,20 +78,17 @@ import { FooterMenu1, FooterMenu2, FooterMenu3 } from '@/_mockApis/front-pages/P
         <div class="py-sm-10 py-6 border-t">
             <div class="d-sm-flex justify-space-between">
                 <div class="d-flex ga-2 text-15 opacity-80 justify-sm-start justify-center">
-                    <img src="@/assets/images/logos/logo-icon.svg" height="24" class="mx-2" alt="logo" />
-                    All rights reserved by Modernize.
+                    <img src="@/assets/images/logos/sample.png" height="24" class="mx-2" alt="logo" />
+                    All rights reserved by Palace Nail.
                 </div>
                 <p class="text-15 opacity-80 d-flex align-center justify-sm-end justify-center pt-sm-0 pt-2">
-                    Produced by
-                    <v-btn
+                    <!--Produced by <v-btn
                         variant="text"
                         color="primary"
                         href="https://adminmart.com/"
                         target="_blank"
                         class="text-hover-primary link-btn text-15 ms-1"
-                    >
-                        AdminMart.</v-btn
-                    >
+                    >AdminMart.</v-btn>-->
                 </p>
             </div>
         </div>
