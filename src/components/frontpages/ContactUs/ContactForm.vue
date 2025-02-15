@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import {ref} from 'vue';
 
-const select = ref('General Enquiry');
-const items = ref(['General Enquiry', 'option 2', 'option 3', 'option 4']);
+const employeeList = ref(['John', 'option 2', 'option 3', 'option 4']);
+const selectEmployeeList = ref([]);
+
+const serviceList = ref(['Nail 1', 'Nail 2', 'Nail 3', 'option 4']);
+const selectServiceList = ref([]);
 
 const selectRating = ref(1);
 
@@ -41,11 +44,11 @@ const selectRating = ref(1);
                         <v-col cols="12">
                             <v-label class="mb-2 font-weight-medium">Dịch vụ bạn đã sử dụng *</v-label>
                             <v-select
-                                v-model="select"
-                                :items="items"
+                                v-model="selectServiceList"
+                                :items="serviceList"
                                 item-title="state"
                                 item-value="abbr"
-                                label="Select"
+
                                 return-object
                                 single-line
                                 variant="outlined"
@@ -58,15 +61,16 @@ const selectRating = ref(1);
                                 <v-col cols="6">
                                     <v-label class="mb-2 font-weight-medium">Nhân viên đã phục vụ bạn *</v-label>
                                     <v-select
-                                        v-model="select"
-                                        :items="items"
+                                        v-model="selectEmployeeList"
+                                        :items="employeeList"
                                         item-title="state"
                                         item-value="abbr"
-                                        label="Select"
+
                                         return-object
                                         single-line
                                         variant="outlined"
                                         hide-details
+                                        multiple
                                     ></v-select>
                                 </v-col>
                                 <v-col cols="6">

@@ -14,5 +14,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  server: {
+    // https://vite.dev/config/server-options#server-port | Type: number ; Default: 5173
+    port: 5100
   }
 })

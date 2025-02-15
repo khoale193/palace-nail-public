@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-const e6 = ref([]);
+const e6 = ref('');
 const states = ref([
     "Alabama",
     "Alaska",
