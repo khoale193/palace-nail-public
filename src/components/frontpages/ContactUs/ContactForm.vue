@@ -11,7 +11,7 @@ const selectRating = ref(1);
     <div class="py-12">
         <v-container class="max-width-1218">
             <v-row>
-                <v-col cols="6" lg="6" md="12">
+                <v-col cols="6" lg="6" md="12" sm="12">
                     <v-row>
                         <v-col cols="12">
                             <v-label class="mb-2 font-weight-medium">First Name *</v-label>
@@ -36,7 +36,7 @@ const selectRating = ref(1);
 
                     </v-row>
                 </v-col>
-                <v-col cols="6" lg="6" md="12">
+                <v-col cols="6" lg="6" md="12" sm="12">
                     <v-row>
                         <v-col cols="12">
                             <v-label class="mb-2 font-weight-medium">Dịch vụ bạn đã sử dụng *</v-label>
