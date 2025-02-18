@@ -16,5 +16,9 @@ export default defineConfig({
   server: {
     // https://vite.dev/config/server-options#server-port | Type: number ; Default: 5173
     port: 8200
+  },
+  build: {
+    outDir: 'member-dist-production',
+    emptyOutDir: true
   }
 })

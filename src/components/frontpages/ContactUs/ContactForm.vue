@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import {ref} from 'vue';
-
-const employeeList = ref(['John', 'option 2', 'option 3', 'option 4']);
+//  Vy 2. Kevin (ha) 3. Lập 4. Jun 5. Erika 6. Nho 7. Khuyên 8. Quy 9. Hung 10. Bianca
+const employeeList = ref(['Vy', 'Kevin', 'Lập', 'Jun', 'Erika', 'Nho']);
 const selectEmployeeList = ref([]);
 
-const serviceList = ref(['Nail 1', 'Nail 2', 'Nail 3', 'option 4']);
+const serviceList = ref(['Basic Pedicure', 'Deluxe pedicure', 'Ultimate Royal pedicure', 'Lip', 'Eyebrows', 'Chin', 'Yebrows Tint']);
 const selectServiceList = ref([]);
 
 const selectRating = ref(1);
