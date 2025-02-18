@@ -69,5 +69,3 @@ const states = ref([
             persistent-hint></v-select>
     </div>
 </template>
-
-

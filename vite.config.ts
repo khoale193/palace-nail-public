@@ -1,5 +1,3 @@
-
-
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
@@ -17,6 +15,6 @@ export default defineConfig({
   },
   server: {
     // https://vite.dev/config/server-options#server-port | Type: number ; Default: 5173
-    port: 5100
+    port: 8200
   }
 })
